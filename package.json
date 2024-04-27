@@ -1,0 +1,23 @@
+{
+  "name": "ts-patch-typescript-5.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "ts-patch install && typia patch",
+    "start": "npm run build && node bin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typia": "^6.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-patch": "^3.1.2",
+    "typescript": "5.5.0-beta"
+  }
+}
