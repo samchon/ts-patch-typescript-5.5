@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
     "prepare": "ts-patch install && typia patch",
     "start": "npm run build && node bin"
   },
